@@ -12,7 +12,6 @@ const PORT = process.env.PORT || 3001;
 app.use(cors({
     origin: ['http://localhost:3000', 'https://badomenprints.com'],
     methods: ['POST'],
-    allowedHeaders: ['Content-Type'],
   }));  
 app.use(express.json());
 
